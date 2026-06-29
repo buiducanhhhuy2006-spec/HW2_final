@@ -1,0 +1,84 @@
+/* ===========================
+   hw1.css - Shared Stylesheet
+   WD4E - CSS Week 1 Assignment
+   =========================== */
+
+/* Step 3: Style the BODY element - change font-family and font-size */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Step 4: Style the HEADER element - change background-color */
+header {
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 15px 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+/* Step 5: Style the NAV element - change background-color */
+nav {
+    background-color: #3498db;
+    padding: 10px 20px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Step 6: Style the MAIN element - change background-color and font-size */
+main {
+    background-color: #ecf0f1;
+    font-size: 18px;
+    padding: 20px;
+    min-height: 300px;
+}
+
+/* Step 7: Style the FOOTER element - change background-color */
+footer {
+    background-color: #2c3e50;
+    color: #bdc3c7;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Step 8: Style the LI element - change display and width */
+li {
+    display: inline-block;
+    width: 120px;
+}
+
+/* Step 9: Style the H1 element - change text-align, font-family, and color */
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', serif;
+    color: #ffffff;
+}
+
+/* Step 10: Style the P element - change line-height */
+p {
+    line-height: 1.8;
+}
