@@ -3,8 +3,6 @@
    WD4E - CSS Week 2 Assignment
    =========================== */
 
-/* ---- From hw1 (kept) ---- */
-
 /* Step 3 (hw1): body font-family and font-size */
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -33,7 +31,7 @@ header a {
 }
 
 /* Step 5 (hw1): nav background-color */
-/* Step 4 (hw2): nav uses inline-block, width ~80% */
+/* Step 4 (hw2): nav dùng inline-block, width ~80% */
 nav {
     background-color: #3498db;
     padding: 10px 20px;
@@ -75,7 +73,6 @@ footer {
 }
 
 /* Step 8 (hw1): li display and width */
-/* Step 3 (hw2): nhận xét kiểu dáng hiện có cho li */
 li {
     display: inline-block;
     width: 120px;
@@ -93,14 +90,9 @@ p {
     line-height: 1.8;
 }
 
-/* ---- Mới cho hw2 ---- */
+/* ---- hw2 mới ---- */
 
-/* Step 5 (hw2): Descendant selector - chỉ style ảnh TRONG .grid */
-.grid > div img {
-    width: 10%;
-}
-
-/* Step 6 & 8 (hw2): Grid layout - 2 cột, mỗi cột ~40% */
+/* Step 6 & 8: Grid 2 cột, mỗi cột ~40% */
 .grid {
     display: grid;
     grid-template-columns: 40% 40%;
@@ -110,7 +102,7 @@ p {
     margin: 20px 0;
 }
 
-/* Step 6 (hw2): selector bắt đầu bằng dấu chấm cho phần tử lớp */
+/* Step 6: selector bắt đầu bằng dấu chấm */
 .park {
     background-color: #ffffff;
     padding: 10px;
@@ -118,12 +110,20 @@ p {
     border: 1px solid #bdc3c7;
 }
 
-/* Step 7 (hw2): Descendant selector - ảnh trong .grid có width 100% */
+/* Step 7: descendant selector - ảnh trong .grid width 100% */
 .grid img {
     width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
 }
 
-/* Step 9 (hw2): Flex layout */
+/* Step 5: descendant selector - ảnh trong nav (điều hướng) width ~10% */
+nav img {
+    width: 10%;
+}
+
+/* Step 9: Flex layout */
 .flex {
     display: flex;
     flex-wrap: wrap;
@@ -131,7 +131,10 @@ p {
     margin: 20px 0;
 }
 
+/* Step 7: descendant selector - ảnh trong .flex width 100% */
 .flex img {
-    width: 22%;
+    width: 18%;
+    height: 150px;
+    object-fit: cover;
     margin: 5px;
 }
